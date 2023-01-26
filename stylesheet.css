@@ -33,6 +33,9 @@ h3 {
   }
 ul id mainNav {list-style: square;
 }
+a:visited {
+    color: pink;
+  }
 h3 {
     width: auto;
     border: 1px solid white;
