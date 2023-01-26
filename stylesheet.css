@@ -29,5 +29,6 @@ h2 { text-decoration-color: currentColor;
 h2 {text-decoration: underline;}
 
 h3 {
-    text-align: justify;
-  } 
+    text-align: center;
+  }
+  
