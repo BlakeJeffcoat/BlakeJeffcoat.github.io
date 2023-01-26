@@ -1,22 +1,13 @@
 body{
-    background-color: aquamarine;
-}
+    background-color: aquamarine;}
 
-* {
+* { font-family: 'Oswald', sans-serif;}
 
-    font-family: 'Oswald', sans-serif;
-}
-
-h1 {
-
-    color: orange;
-}
-
+h1 {color: orange;}
 
 ul#mainNav {
 
-    list-style-type: none;
-}
+    list-style-type: square;}
 
 h3 { line-height: 150%;
 
@@ -31,8 +22,7 @@ h2 {text-decoration: underline;}
 h3 {
     text-align: center;
   }
-ul a {list-style: square;
-}
+
 a:visited {
     color: pink;
   }
