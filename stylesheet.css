@@ -17,3 +17,9 @@ ul#mainNav {
 
     list-style-type: none;
 }
+
+h3 { line-height: 150%;
+
+}
+
+h3 { text-decoration-color: currentColor; }
