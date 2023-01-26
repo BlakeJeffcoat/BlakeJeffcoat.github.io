@@ -22,4 +22,8 @@ h3 { line-height: 150%;
 
 }
 
-h3 { text-decoration-color: currentColor; }
+h3 { text-decoration-color: currentColor; 
+
+}
+
+h3 {text-decoration: underline;}
