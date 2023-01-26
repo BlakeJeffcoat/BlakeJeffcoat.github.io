@@ -31,7 +31,7 @@ h2 {text-decoration: underline;}
 h3 {
     text-align: center;
   }
-ul id mainNav {list-style: square;
+ul a {list-style: square;
 }
 a:visited {
     color: pink;
