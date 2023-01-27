@@ -1,37 +1,26 @@
 body{
-    background-color: aquamarine;}
+    background-color: rgb(180, 230, 213);}
 
 * { font-family: 'Oswald', sans-serif;}
 
 h1 {color: orange;}
-ul  {display: inline-block;}
-ul#mainNav {
-  
-
-    list-style-type: square;}
-
-h3 { line-height: 150%;
-
-}
-
-h2 {text-decoration: underline;}
-    h2 { text-decoration-color: currentColor; 
-
-}
-
-
-h3 {
-    text-align: center;
-  }
+h1 {font-size: 50px;}
+    li  {display: inline-block;}
+    ul#mainNav {list-style-type: square;}
+   
+            h2 {text-decoration: underline;}
+         h2 { text-decoration-color: currentColor; }
+    h3 { line-height: 150%;}
+        h3 {text-align: center; }
 
 ul#mainNav:visited {
-    color: pink;
-  }
-h3 {
-    width: auto;
-    border: 1px solid white;
-  }
+    color: pink;}
+h3 {width: auto;
+    border: 1px solid white;}
+    
     header {background-image: url("images/CalvinAndHobbes.jpg");
         width: 100%;
         height: 200px;
     background-size: cover;}
+
+    footer {background-image:url(images/Scrupulous.gif);}
