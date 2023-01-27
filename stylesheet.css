@@ -4,8 +4,9 @@ body{
 * { font-family: 'Oswald', sans-serif;}
 
 h1 {color: orange;}
-
+ul  {display: inline-block;}
 ul#mainNav {
+  
 
     list-style-type: square;}
 
@@ -30,6 +31,7 @@ h3 {
     width: auto;
     border: 1px solid white;
   }
-    header {background-image: url("CalvinAndHobbes.jpg");
-        max-width: 10%;
-        height: auto;}
+    header {background-image: url("images/CalvinAndHobbes.jpg");
+        width: 100%;
+        height: 200px;
+    background-size: cover;}
