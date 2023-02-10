@@ -11,21 +11,21 @@ body{
 * { font-family: 'Oswald', sans-serif;}
 
 h1 {color: orange;}
-    h1 {font-size: 50px;}
-        h1 {text-transform:uppercase}
-li  {display: inline-block;}
-    ul#mainNav {list-style-type: square;}
-        li{color:green}
-            li:hover{background-color:yellow;}
-                li{text-align: center;}
+h1 {font-size: 50px;}
+h1 {text-transform:uppercase}
+    li  {display: inline-block;}
+        ul#mainNav {list-style-type: square;}
+    li{color:green}
+    li:hover{background-color:yellow;}
+    li{text-align: center;}
    
  h2 {text-decoration: underline;}
-     h2 { text-decoration-color: currentColor; }
+ h2 { text-decoration-color: currentColor; }
     
- h3 { line-height: 150%;}
-    h3 {text-align: center; }
+     h3 { line-height: 150%;}
+     h3 {text-align: center; }
         ul#mainNav:visited {color: pink;}
-            h3 {width: auto; border: 1px solid white;}
+    h3 {width: auto; border: 1px solid white;}
     
     header {background-image: url("images/CalvinAndHobbes.jpg");
         width: 100%;
@@ -34,3 +34,26 @@ li  {display: inline-block;}
 
     footer {background-image:url(images/Scrupulous.gif);
     background-repeat: repeat-x;}
+.likes {
+    width: 50%;
+    float: left;
+    padding:1em;
+    margin:0%;
+    padding:0;
+}
+.dislikes {
+    width: 50%;
+    float: left;
+    padding:1em;
+    margin:0%;
+    padding:0;
+}
+#container li {
+    display: flex;
+  }
+
+  #fingor {
+    width:80%;
+     margin:auto;
+     padding:10%
+    }
