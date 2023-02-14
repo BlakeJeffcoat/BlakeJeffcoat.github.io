@@ -1,11 +1,16 @@
-* {margin: 0; padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 #wrapper {
     width:80%;
-     margin:auto;
-    }
+    margin:auto;
+}
 
 body{
+
+    
     background-color: rgb(180, 230, 213);}
 
 * { font-family: 'Oswald', sans-serif;}
@@ -15,7 +20,7 @@ h1 {font-size: 50px;}
 h1 {text-transform:uppercase}
     li  {display: inline-block;}
         ul#mainNav {list-style-type: square;}
-    li{color:green}
+    li{color:rgb(124, 53, 71)}
     li:hover{background-color:yellow;}
     li{text-align: center;}
    
@@ -57,3 +62,35 @@ h1 {text-transform:uppercase}
      margin:auto;
      padding:10%
     }
+   body {
+        background-color: pink;
+      }
+      
+@media screen and (max-width: 480px) {
+
+    body {
+
+        background-color: lightgreen;
+
+    }
+    
+    .dislikes {
+    
+        background-color:rgb(127, 209, 147);
+
+        }
+     
+        .likes {
+    
+        background-color:rgb(125, 199, 147);
+    
+          }
+           
+    #wrapper{ 
+        
+        width: 90%;
+        margin: auto;
+    }
+
+
+}
