@@ -1,0 +1,45 @@
+
+body {background-color:rgb(18, 0, 0)
+
+}
+
+header { background-image: url(/Final/images/coverfighter.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin-top: -150px;
+}
+
+.pressstart {
+  margin-top: -170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container {
+    max-width: none;
+    background-color:#421313; }
+.playerselect { background-image: url(/Final/images/Player\ select.png);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+}
+
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .container {
+      width: 95%;
+      padding: 0; }
+  }
+  
+  /* For devices larger than 550px */
+  @media (min-width: 550px) {
+    .container {
+      width: 90%; }
+
+    }
+    
