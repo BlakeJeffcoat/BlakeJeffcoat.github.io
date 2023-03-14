@@ -6,25 +6,25 @@
 body {background-color:rgb(18, 0, 0)
 
 }
-body {padding: 100%;
+body 
+{padding: 100%;
+  width: 80%;
 overflow: scroll;}
 
 *{font-family: 'Press Start 2P', cursive; color: azure; font-size:medium;}
 
 
-
 .paragraph1 {
   background-color: darkred; padding: 10%;
 border-radius: 12px;
+margin-left: 40px;
 margin-top: 200px;}
 
 .paragraph2 {background-color: darkred; padding: 10%;
   border-radius: 12px;
   margin-top: 70px; }
 
-.streetfighter1{
-  margin-left: 80px;
-}
+
 .streetfighter1:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -58,7 +58,8 @@ margin-top: 200px;}
   .streetfighter2 {
     display: block;
     float: right;
-    width: 900px
+    width: 720px;
+    margin-top: 40px;
   }
 .streetfighter2:hover {
   animation: shake 0.5s;
@@ -68,13 +69,13 @@ margin-top: 200px;}
   .streetconcept {
     width: 60%;
     float: right;
-    margin-top: 150px;
+    margin-top: 170px;
     margin-right: 100px;
   }
 
   .ryu {
     margin-top: 150px;
-    width: 90%;
+    width: 110%;
     margin-left: 70px;
   }
 
@@ -113,7 +114,7 @@ header { background-image: url(/Final/images/coverfighter.png);
   }
 
   .playerselect {
-    width: 1700px;
+    width: 1600px;
   margin-left: -700px;
   }
  
